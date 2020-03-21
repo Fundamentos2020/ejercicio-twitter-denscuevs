@@ -130,3 +130,12 @@ body { margin: 0; }
 
 [class*="col-"] { float: left; }
 [class*="flex-"] { display: flex; }
+
+.delete-tweet {
+    display: inline-block;
+    align-items: flex-end;
+    text-align: right;
+    align-content: flex-end;
+    border:solid tomato;
+    border-radius: 5px;
+}

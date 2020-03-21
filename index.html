@@ -7,19 +7,19 @@
     <title>Twitter</title>
 </head>
 <body>
-    <div>
-        <h1>Local Storage</h1>
+    <div class="container">
+        <h1 class="text-center">Local Storage</h1>
         <div>
-            <div>
-                <form action="#">
-                    <label for="tweet">Tweet:</label>
-                    <textarea name="tweet"></textarea>
-                    <button>Agregar</button>
+            <div class="col-m-6 col-s-12">
+                <form action="#" id="input" class="text-right m-2">
+                    <label for="tweet" class="p-1 d-block col-12 flex-row">Tweet:</label>
+                    <textarea name="tweet", id="tweet" class="m-1 p-4 d-inline col-12"></textarea>
+                    <button type="submit" class="m-1 p-2">Agregar</button>
                 </form>
             </div>
-            <div>
+            <div class="col-m-6 col-s-12 p-3">
                 <h2>Mis Tweets</h2>
-                <div></div>
+                <div id="content-tweets" class="p-2"></div>
             </div>
         </div>
     </div>
